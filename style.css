@@ -1,0 +1,132 @@
+form a {
+    margin-left:5px;
+}
+
+/*
+not part of stephens course
+*/
+.contactInformation, .profileOverviewContainer, .experienceContainer, .educationContainer, .selfDevelopmentContainer, .entriesContainer{
+    background-color: white;
+}
+.contactInformation{
+    margin-left: 3%;
+}
+.profileOverviewContainer{
+    border-top-left-radius: 15px;
+    box-shadow: 10px -10px 5px rgb(51, 51, 51);
+}
+
+.experienceContainer{
+    box-shadow: 10px -10px 5px rgb(51, 51, 51);
+}
+
+.entriesContainer{
+    box-shadow: 10px -10px 5px rgb(51, 51, 51);
+}
+
+.entriesContainer{
+    margin-top: 4%;
+}
+
+.profilePicture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-left-radius:15px;
+    width: 100%;
+    height: 250px;
+}
+
+.profilePicture img {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.appRoot{
+    margin-top: 25px;
+}
+
+
+.skillsSection h5 {
+    font-weight:bold;
+}
+
+.skillsSection{
+    margin-left: 3%;
+}
+
+.topBorder{
+    width:95%;
+    height:10%;
+    border-top: 1px solid rgb(128, 0, 0);
+    margin-left: 2.5%;
+    margin-bottom: 5%;
+}
+
+
+.languageSection h5{
+    font-weight: bold;
+}
+
+.boldH5{
+    font-weight: bold;
+}
+
+
+.languageSection{
+    margin-left: 3%;
+}
+
+.certificationsSection{
+    margin-left: 3%;
+}
+
+.certificationsSection h5{
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(128, 0, 0); 
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    height: 100px;
+    margin-top: 1%;
+}
+
+.iconSmall{
+    width:20px; 
+    height:20px;
+    margin-right: 20px;
+}
+
+
+.iconBig{
+    width:40px;
+    height:40px;
+    margin: 20px;
+}
+.educationContainer h3, .experienceContainer h3, .selfDevelopmentContainer h3{
+    font-weight: bold;
+
+}
+
+.experienceBlocks, .educationBlocks, .selfDevelopmentBlocks{
+    margin-left: 20px;
+}
+
+
+ .redText{
+    color: rgb(128, 0, 0);
+    margin-bottom: -2%;
+}
+
+.redMark{
+    background-color: rgb(128, 0, 0);
+    color: white;
+}
